@@ -26,9 +26,14 @@ const Input = ({ ...attributes }: InputProps) => {
       />
       {validation && (
         <div className={styles.error}>
-          Can't be empty
+          Can&apos;t be empty
           <i className={styles.errorIcon}>
-            <Image src={"/icon-error.svg"} width={20} height={20}></Image>
+            <Image
+              alt=""
+              src={"/icon-error.svg"}
+              width={20}
+              height={20}
+            ></Image>
           </i>
         </div>
       )}

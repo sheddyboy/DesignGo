@@ -20,10 +20,16 @@ const AboutUsPage = () => {
             </p>
           </div>
           <div className={styles.image}>
-            <Image src="/image-about-hero.jpg" width={476} height={480} />
+            <Image
+              alt=""
+              src="/image-about-hero.jpg"
+              width={476}
+              height={480}
+            />
           </div>
           <div className={styles.pattern}>
             <Image
+              alt=""
               src="/bg-pattern-hero-about-desktop.svg"
               width={640}
               height={640}
@@ -33,6 +39,7 @@ const AboutUsPage = () => {
         <Card className={styles.worldClass}>
           <div className={styles.image}>
             <Image
+              alt=""
               src="/image-world-class-talent.jpg"
               width={476}
               height={640}
@@ -54,6 +61,7 @@ const AboutUsPage = () => {
             </p>
             <div className={styles.pattern}>
               <Image
+                alt=""
                 src="/bg-pattern-three-circles.svg"
                 width={584}
                 height={584}
@@ -78,6 +86,7 @@ const AboutUsPage = () => {
             </p>
             <div className={styles.pattern}>
               <Image
+                alt=""
                 src="/bg-pattern-two-circles.svg"
                 width={584}
                 height={292}
@@ -85,15 +94,15 @@ const AboutUsPage = () => {
             </div>
           </div>
           <div className={styles.image}>
-            <Image src="/image-real-deal.jpg" width={476} height={640} />
+            <Image alt="" src="/image-real-deal.jpg" width={476} height={640} />
           </div>
         </Card>
       </div>
       <div className={styles.leafPattern}>
-        <Image src={"/bg-pattern-leaf.svg"} width={1006} height={594} />
+        <Image alt="" src={"/bg-pattern-leaf.svg"} width={1006} height={594} />
       </div>
       <div className={styles.leafPattern2}>
-        <Image src={"/bg-pattern-leaf.svg"} width={1006} height={594} />
+        <Image alt="" src={"/bg-pattern-leaf.svg"} width={1006} height={594} />
       </div>
     </section>
   );

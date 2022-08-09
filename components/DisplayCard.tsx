@@ -12,7 +12,7 @@ const DisplayCard = ({ title, summary, imageUrl }: DisplayCardProps) => {
   return (
     <Card className={styles.displayCard}>
       <div className={styles.image}>
-        <Image src={imageUrl} width={350} height={320} />
+        <Image alt="" src={imageUrl} width={350} height={320} />
       </div>
       <div className={styles.content}>
         <h3>{title}</h3>

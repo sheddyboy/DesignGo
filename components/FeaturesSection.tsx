@@ -15,6 +15,7 @@ const FeaturesSection = () => {
           <div className={styles.gridItem}>
             <div className={styles.image}>
               <Image
+                alt=""
                 src={"/illustration-passionate.svg"}
                 width={202}
                 height={202}
@@ -30,6 +31,7 @@ const FeaturesSection = () => {
             </div>
             <div className={styles.pattern}>
               <Image
+                alt=""
                 src={"/bg-pattern-hero-home.svg"}
                 width={202}
                 height={202}
@@ -39,6 +41,7 @@ const FeaturesSection = () => {
           <div className={styles.gridItem}>
             <div className={styles.image}>
               <Image
+                alt=""
                 src={"/illustration-resourceful.svg"}
                 width={202}
                 height={202}
@@ -55,6 +58,7 @@ const FeaturesSection = () => {
             </div>
             <div className={styles.pattern}>
               <Image
+                alt=""
                 src={"/bg-pattern-hero-home.svg"}
                 width={202}
                 height={202}
@@ -64,6 +68,7 @@ const FeaturesSection = () => {
           <div className={styles.gridItem}>
             <div className={styles.image}>
               <Image
+                alt=""
                 src={"/illustration-friendly.svg"}
                 width={202}
                 height={202}
@@ -79,6 +84,7 @@ const FeaturesSection = () => {
             </div>
             <div className={styles.pattern}>
               <Image
+                alt=""
                 src={"/bg-pattern-hero-home.svg"}
                 width={202}
                 height={202}
@@ -88,7 +94,7 @@ const FeaturesSection = () => {
         </Grid>
       </div>
       <div className={styles.leafPattern}>
-        <Image src={"/bg-pattern-leaf.svg"} width={1006} height={594} />
+        <Image alt="" src={"/bg-pattern-leaf.svg"} width={1006} height={594} />
       </div>
     </section>
   );

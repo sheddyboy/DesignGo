@@ -31,7 +31,12 @@ const DesignCard = ({
             <p>
               {"VIEW PROJECTS"}{" "}
               <i>
-                <Image src={"/icon-right-arrow.svg"} width={4} height={8} />
+                <Image
+                  alt=""
+                  src={"/icon-right-arrow.svg"}
+                  width={4}
+                  height={8}
+                />
               </i>
             </p>
           </div>

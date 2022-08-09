@@ -20,7 +20,7 @@ const Footer = () => {
         <div className={styles.nav}>
           <div className={styles.logo}>
             <Link href={"/"}>
-              <Image src={"/logo-light.png"} width={196} height={24} />
+              <Image alt="" src={"/logo-light.png"} width={196} height={24} />
             </Link>
           </div>
           <div className={styles.navLinks}>
@@ -51,35 +51,60 @@ const Footer = () => {
             <div>
               <Link href={""}>
                 <a>
-                  <Image src={"/icon-facebook.svg"} width={24} height={24} />
+                  <Image
+                    alt=""
+                    src={"/icon-facebook.svg"}
+                    width={24}
+                    height={24}
+                  />
                 </a>
               </Link>
             </div>
             <div>
               <Link href={""}>
                 <a>
-                  <Image src={"/icon-youtube.svg"} width={24} height={24} />
+                  <Image
+                    alt=""
+                    src={"/icon-youtube.svg"}
+                    width={24}
+                    height={24}
+                  />
                 </a>
               </Link>
             </div>
             <div>
               <Link href={""}>
                 <a>
-                  <Image src={"/icon-twitter.svg"} width={24} height={24} />
+                  <Image
+                    alt=""
+                    src={"/icon-twitter.svg"}
+                    width={24}
+                    height={24}
+                  />
                 </a>
               </Link>
             </div>
             <div>
               <Link href={""}>
                 <a>
-                  <Image src={"/icon-pinterest.svg"} width={24} height={24} />
+                  <Image
+                    alt=""
+                    src={"/icon-pinterest.svg"}
+                    width={24}
+                    height={24}
+                  />
                 </a>
               </Link>
             </div>
             <div>
               <Link href={""}>
                 <a>
-                  <Image src={"/icon-instagram.svg"} width={24} height={24} />
+                  <Image
+                    alt=""
+                    src={"/icon-instagram.svg"}
+                    width={24}
+                    height={24}
+                  />
                 </a>
               </Link>
             </div>

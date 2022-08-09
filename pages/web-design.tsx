@@ -70,7 +70,7 @@ const WebDesignPage = () => {
         </Grid>
       </div>
       <div className={styles.leafPattern}>
-        <Image src={"/bg-pattern-leaf.svg"} width={1006} height={594} />
+        <Image alt="" src={"/bg-pattern-leaf.svg"} width={1006} height={594} />
       </div>
     </section>
   );

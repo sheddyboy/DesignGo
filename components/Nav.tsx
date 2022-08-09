@@ -9,7 +9,7 @@ const Nav = () => {
       <div className={"container " + styles.container}>
         <div className={styles.logo}>
           <Link href={"/"}>
-            <Image src={"/logo-dark.png"} width={196} height={24} />
+            <Image alt="" src={"/logo-dark.png"} width={196} height={24} />
           </Link>
         </div>
         <div className={styles.navLinks}>

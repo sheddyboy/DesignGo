@@ -28,15 +28,25 @@ const Hero = () => {
             </Button>
           </div>
           <div className={styles.image}>
-            <Image src={"/image-hero-phone.png"} width={624} height={913} />
+            <Image
+              alt=""
+              src={"/image-hero-phone.png"}
+              width={624}
+              height={913}
+            />
           </div>
           <div className={styles.heroPattern}>
-            <Image src={"/bg-pattern-hero-home.svg"} width={640} height={640} />
+            <Image
+              alt=""
+              src={"/bg-pattern-hero-home.svg"}
+              width={640}
+              height={640}
+            />
           </div>
         </Card>
       </div>
       <div className={styles.leafPattern}>
-        <Image src={"/bg-pattern-leaf.svg"} width={1006} height={594} />
+        <Image alt="" src={"/bg-pattern-leaf.svg"} width={1006} height={594} />
       </div>
     </main>
   );

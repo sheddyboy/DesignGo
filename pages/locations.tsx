@@ -29,6 +29,7 @@ const LocationPage = () => {
             </div>
             <div className={styles.pattern}>
               <Image
+                alt=""
                 src="/bg-pattern-two-circles.svg"
                 width={584}
                 height={292}
@@ -36,7 +37,12 @@ const LocationPage = () => {
             </div>
           </Card>
           <Card className={styles.image}>
-            <Image src="/image-map-canada.png" width={350} height={326} />
+            <Image
+              alt=""
+              src="/image-map-canada.png"
+              width={350}
+              height={326}
+            />
           </Card>
         </Grid>
         <Grid
@@ -45,7 +51,12 @@ const LocationPage = () => {
           columnGap="30px"
         >
           <Card className={styles.image}>
-            <Image src="/image-map-australia.png" width={350} height={326} />
+            <Image
+              alt=""
+              src="/image-map-australia.png"
+              width={350}
+              height={326}
+            />
           </Card>
           <Card className={styles.content}>
             <h1>Australia</h1>
@@ -63,6 +74,7 @@ const LocationPage = () => {
             </div>
             <div className={styles.pattern}>
               <Image
+                alt=""
                 src="/bg-pattern-two-circles.svg"
                 width={584}
                 height={292}
@@ -91,6 +103,7 @@ const LocationPage = () => {
             </div>
             <div className={styles.pattern}>
               <Image
+                alt=""
                 src="/bg-pattern-two-circles.svg"
                 width={584}
                 height={292}
@@ -99,6 +112,7 @@ const LocationPage = () => {
           </Card>
           <Card className={styles.image}>
             <Image
+              alt=""
               src="/image-map-united-kingdom.png"
               width={350}
               height={326}

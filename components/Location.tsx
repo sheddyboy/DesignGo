@@ -15,7 +15,7 @@ const Location = () => {
       columnGap="30px"
     >
       <div className={styles.gridItem}>
-        <Image src="/illustration-canada.svg" width={202} height={202} />
+        <Image alt="" src="/illustration-canada.svg" width={202} height={202} />
         <h3>CANADA</h3>
         <Button
           type="Secondary"
@@ -27,6 +27,7 @@ const Location = () => {
         </Button>
         <div className={styles.pattern}>
           <Image
+            alt=""
             src="/bg-pattern-hero-about-desktop.svg"
             width={202}
             height={202}
@@ -34,7 +35,12 @@ const Location = () => {
         </div>
       </div>
       <div className={styles.gridItem}>
-        <Image src="/illustration-australia.svg" width={202} height={202} />
+        <Image
+          alt=""
+          src="/illustration-australia.svg"
+          width={202}
+          height={202}
+        />
         <h3>AUSTRALIA</h3>
         <Button
           type="Secondary"
@@ -46,6 +52,7 @@ const Location = () => {
         </Button>
         <div className={styles.pattern}>
           <Image
+            alt=""
             src="/bg-pattern-hero-about-desktop.svg"
             width={202}
             height={202}
@@ -54,6 +61,7 @@ const Location = () => {
       </div>
       <div className={styles.gridItem}>
         <Image
+          alt=""
           src="/illustration-united-kingdom.svg"
           width={202}
           height={202}
@@ -69,6 +77,7 @@ const Location = () => {
         </Button>
         <div className={styles.pattern}>
           <Image
+            alt=""
             src="/bg-pattern-hero-about-desktop.svg"
             width={202}
             height={202}

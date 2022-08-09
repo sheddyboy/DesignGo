@@ -30,7 +30,12 @@ const CTA = () => {
           </div>
         </Card>
         <div className={styles.pattern}>
-          <Image src={"/bg-pattern-intro-app.svg"} width={876} height={584} />
+          <Image
+            alt=""
+            src={"/bg-pattern-intro-app.svg"}
+            width={876}
+            height={584}
+          />
         </div>
       </div>
     </section>

@@ -14,7 +14,12 @@ const PageHeading = ({ title, summary }: PageHeadingProps) => {
       <h1>{title}</h1>
       <p>{summary}</p>
       <div className={styles.pattern}>
-        <Image src={"/bg-pattern-intro-app.svg"} width={876} height={584} />
+        <Image
+          alt=""
+          src={"/bg-pattern-intro-app.svg"}
+          width={876}
+          height={584}
+        />
       </div>
     </Card>
   );

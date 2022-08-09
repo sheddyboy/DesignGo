@@ -71,7 +71,12 @@ const ContactPage = () => {
             </form>
           </div>
           <div className={styles.pattern}>
-            <Image src="/bg-pattern-hero-home.svg" width={640} height={640} />
+            <Image
+              alt=""
+              src="/bg-pattern-hero-home.svg"
+              width={640}
+              height={640}
+            />
           </div>
         </Card>
         <Location />
