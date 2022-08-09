@@ -1,0 +1,65 @@
+.inputWrapper {
+  display: inline;
+  position: relative;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid var(--pry_W);
+  padding-left: 16px;
+  padding-bottom: 11px;
+  background: transparent;
+  width: 380px;
+  height: 38px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  color: var(--pry_W);
+}
+
+.input::placeholder {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  padding-bottom: 11px;
+  color: var(--pry_W);
+  opacity: 0.5;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid var(--pry_W);
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  color: var(--pry_W);
+}
+
+.error {
+  position: absolute;
+  top: 0;
+  right: 16px;
+  display: flex;
+  align-items: center;
+
+  font-family: "Jost";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: var(--pry_W);
+}
+
+.errorIcon {
+  display: flex;
+  align-items: center;
+  margin-left: 9px;
+}

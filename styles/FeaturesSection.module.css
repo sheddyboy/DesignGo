@@ -1,0 +1,51 @@
+.featuresSection {
+  position: relative;
+  margin-bottom: 380px;
+}
+
+.grid {
+  position: relative;
+  z-index: 1;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* column-gap: 30px; */
+}
+
+.gridItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 48px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content h3 {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.content p {
+  text-align: center;
+}
+
+.pattern {
+  position: absolute;
+  top: 0;
+}
+
+.leafPattern {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  transform: rotate(180deg);
+}

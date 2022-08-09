@@ -1,0 +1,52 @@
+.main {
+  position: relative;
+  margin-bottom: 160px;
+}
+
+.hero {
+  position: relative;
+  height: 640px;
+  background-color: var(--pry_P);
+  display: flex;
+  align-items: center;
+  padding-top: 145px;
+  padding-left: 95px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.content {
+  width: 540px;
+  height: 350px;
+  position: relative;
+  z-index: 2;
+}
+
+.content h1 {
+  color: var(--pry_W);
+}
+
+.content p {
+  color: var(--pry_W);
+  margin: 30px 0px 40px 0px;
+  width: 445px;
+}
+
+.image {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.heroPattern {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.leafPattern {
+  position: absolute;
+  top: 380px;
+  left: 0;
+}

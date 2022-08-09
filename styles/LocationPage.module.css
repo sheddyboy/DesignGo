@@ -1,0 +1,46 @@
+.canada,
+.australia {
+  margin-bottom: 32px;
+}
+
+.content {
+  position: relative;
+  background-color: #fdf3f0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 730px;
+  height: 326px;
+  padding-top: 88px;
+  padding-left: 95px;
+}
+
+.content h1 {
+  color: var(--pry_P);
+  margin-bottom: 24px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper :nth-child(1) {
+  margin-right: 60px;
+}
+
+/* .content :nth-child(2) :nth-child(1){
+    margin-right: 30px;
+} */
+
+.pattern {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.image {
+  width: 350px;
+  height: 326px;
+}

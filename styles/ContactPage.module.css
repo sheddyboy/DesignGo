@@ -1,0 +1,86 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 480px;
+  background-color: var(--pry_P);
+  margin-bottom: 160px;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 95px;
+}
+
+.content h1 {
+  color: var(--pry_W);
+  margin-bottom: 32px;
+}
+.content p {
+  color: var(--pry_W);
+
+  width: 445px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 371px;
+  margin-top: 55px;
+  padding-right: 96px;
+}
+.message {
+  color: var(--pry_W);
+  border: none;
+  border-bottom: 1px solid var(--pry_W);
+  padding-left: 16px;
+  padding-bottom: 11px;
+  background: transparent;
+  height: 100px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.message::placeholder {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  padding-bottom: 11px;
+  color: var(--pry_W);
+  opacity: 0.5;
+}
+
+.message:focus {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid var(--pry_W);
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  color: var(--pry_W);
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pattern {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

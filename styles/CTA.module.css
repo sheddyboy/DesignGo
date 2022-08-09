@@ -1,0 +1,43 @@
+.cta {
+  position: absolute;
+  top: -220px;
+  overflow: hidden;
+}
+
+.container {
+  width: 1111px;
+  position: relative;
+}
+
+.flex {
+  background-color: var(--pry_P);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 72px 96px 46px 95px;
+}
+
+.content {
+  width: 459px;
+  height: 174px;
+  position: relative;
+  z-index: 1;
+}
+
+.btnWrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.content h2 {
+  color: var(--pry_W);
+}
+.content p {
+  color: var(--pry_W);
+}
+
+.pattern {
+  position: absolute;
+  top: -146px;
+  right: 0;
+}

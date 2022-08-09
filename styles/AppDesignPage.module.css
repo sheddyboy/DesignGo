@@ -1,0 +1,19 @@
+.section {
+  position: relative;
+}
+
+.leafPattern {
+  position: absolute;
+  top: 126px;
+  left: 0;
+}
+
+.grid {
+  margin-bottom: 160px;
+}
+
+/* .grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+} */

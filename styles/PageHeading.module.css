@@ -1,0 +1,35 @@
+.pageHeading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pry_P);
+  overflow: hidden;
+  margin-bottom: 160px;
+  z-index: 1;
+}
+
+.pageHeading h1 {
+  position: relative;
+  z-index: 1;
+  padding-top: 64px;
+  padding-bottom: 24px;
+  color: var(--pry_W);
+}
+
+.pageHeading p {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 64px;
+  color: var(--pry_W);
+  width: 420px;
+  text-align: center;
+}
+
+.pattern {
+  position: absolute;
+  top: -146px;
+  right: 0;
+  transform: rotate(180deg);
+}

@@ -1,0 +1,29 @@
+.nav {
+  margin-top: 64px;
+  margin-bottom: 67px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navLink {
+  margin-left: 42px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: var(--sec_B);
+}
+
+.navLink:hover {
+  border-bottom: 1px solid var(--sec_B);
+}

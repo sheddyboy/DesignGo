@@ -1,0 +1,128 @@
+.section {
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutUs {
+  width: 1111px;
+  height: 480px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 160px;
+}
+
+.aboutUs .content {
+  width: 635px;
+  padding-left: 93px;
+  padding-top: 135px;
+  background-color: var(--pry_P);
+}
+.aboutUs .content h1 {
+  position: relative;
+  z-index: 1;
+  color: var(--pry_W);
+  margin-bottom: 32px;
+}
+.aboutUs .content p {
+  position: relative;
+  z-index: 1;
+  color: var(--pry_W);
+  width: 458px;
+}
+
+.aboutUs .image {
+  position: relative;
+  z-index: 1;
+  width: 476px;
+  height: 480px;
+}
+
+.aboutUs .pattern {
+  position: absolute;
+  bottom: 0;
+}
+
+.worldClass {
+  width: 1111px;
+  height: 640px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 160px;
+}
+.worldClass .content {
+  position: relative;
+  width: 635px;
+  padding-left: 94px;
+  padding-top: 154px;
+  background-color: #fdf3f0;
+}
+.worldClass .content h2 {
+  color: var(--pry_P);
+  margin-bottom: 24px;
+}
+.worldClass .content p {
+  color: var(--pry_B);
+  width: 445px;
+}
+.worldClass .image {
+  position: relative;
+  z-index: 1;
+
+  width: 476px;
+  height: 640px;
+}
+
+.worldClass .content .pattern {
+  position: absolute;
+  bottom: 0;
+  left: -150px;
+}
+
+.realDeal {
+  width: 1111px;
+  height: 640px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  /* margin-bottom: 160px; */
+}
+.realDeal .content {
+  position: relative;
+  width: 635px;
+  padding-left: 95px;
+  padding-top: 154px;
+  background-color: #fdf3f0;
+}
+.realDeal .content h2 {
+  color: var(--pry_P);
+  margin-bottom: 24px;
+}
+.realDeal .content p {
+  color: var(--pry_B);
+  width: 445px;
+}
+.realDeal .content .pattern {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.realDeal .image {
+  width: 476px;
+  height: 640px;
+}
+
+.leafPattern {
+  position: absolute;
+  top: 320px;
+  left: 0;
+}
+.leafPattern2 {
+  position: absolute;
+  top: 1622px;
+  right: -400px;
+}

@@ -1,16 +1,77 @@
+:root {
+  --pry_P: #e7816b;
+  --pry_B: #1d1c1e;
+  --pry_W: #ffffff;
+  --sec_P: #ffad9b;
+  --sec_B: #333136;
+  --sec_W: #f1f3f5;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Jost", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
-  color: inherit;
+  /* color: inherit; */
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  color: var(--pry_B);
+  margin: 0px;
+}
+
+h2 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  /* or 120% */
+  letter-spacing: 2px;
+  color: var(--pry_B);
+  margin: 0px;
+}
+
+h3 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--sec_B);
+  margin: 0px;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: var(--sec_B);
+  margin: 0px;
+}
+
+.container {
+  max-width: 1111px;
+  margin-left: auto;
+  margin-right: auto;
 }

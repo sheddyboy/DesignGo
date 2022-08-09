@@ -1,0 +1,23 @@
+.location {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 160px;
+}
+
+.gridItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridItem h3 {
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.pattern {
+  position: absolute;
+  top: 0;
+}

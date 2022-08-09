@@ -1,0 +1,64 @@
+.footer {
+  position: relative;
+  background-color: var(--pry_B);
+  padding-top: 144px;
+  padding-bottom: 72px;
+  /* margin-top: 380px; */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 40px;
+}
+
+.navLink {
+  margin-left: 42px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: var(--pry_W);
+}
+
+.navLink:hover {
+  border-bottom: 1px solid var(--pry_W);
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.details {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 31px;
+}
+
+.detailsLocation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detailsLocation div {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.detailsLocation :nth-child(1) {
+  margin-right: 200px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.socials a {
+  margin-left: 16px;
+}
