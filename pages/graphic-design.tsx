@@ -21,16 +21,19 @@ const GraphicDesignPage = () => {
           rowGap="32px"
         >
           <DisplayCard
+            className={styles.gridItem}
             title="TIM BROWN"
             summary="A book cover designed for Tim Brown’s new release, ‘Change’"
             imageUrl="/image-change.jpg"
           />
           <DisplayCard
+            className={styles.gridItem}
             title="BOXED WATER"
             summary="A simple packaging concept made for Boxed Water"
             imageUrl="/image-boxed-water.jpg"
           />
           <DisplayCard
+            className={styles.gridItem}
             title="SCIENCE!"
             summary="A poster made in collaboration with the Federal Art Project"
             imageUrl="/image-science.jpg"
@@ -42,6 +45,7 @@ const GraphicDesignPage = () => {
           columnGap="30px"
         >
           <DesignCard
+            className={styles.grid2Item}
             title="APP DESIGN"
             imageUrl="image-app-design.jpg"
             path="/app-design"
@@ -51,7 +55,6 @@ const GraphicDesignPage = () => {
             title="WEB DESIGN"
             imageUrl="image-web-design-small.jpg"
             path="/web-design"
-            height="308px"
           />
         </Grid>
       </div>

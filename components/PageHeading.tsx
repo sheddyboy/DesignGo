@@ -13,7 +13,6 @@ const PageHeading = ({ title, summary }: PageHeadingProps) => {
     window.addEventListener("resize", () => {
       setWindowWidth(window.innerWidth);
     });
-    console.log(windowWidth);
   }, [windowWidth]);
 
   let headingPatternChange: string;
