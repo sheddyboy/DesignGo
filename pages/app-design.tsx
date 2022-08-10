@@ -21,26 +21,31 @@ const AppDesignPage = () => {
           rowGap="32px"
         >
           <DisplayCard
+            className={styles.gridItem}
             title="AIRFILTER"
             summary="Solving the problem of poor indoor air quality by filtering the air"
             imageUrl="/image-airfilter.jpg"
           />
           <DisplayCard
+            className={styles.gridItem}
             title="EYECAM"
             summary="Product that lets you edit your favorite photos and videos at any time"
             imageUrl="/image-eyecam.jpg"
           />
           <DisplayCard
+            className={styles.gridItem}
             title="FACEIT"
             summary="Get to meet your favorite internet superstar with the faceit app"
             imageUrl="/image-faceit.jpg"
           />
           <DisplayCard
+            className={styles.gridItem}
             title="TODO"
             summary="A todo app that features cloud sync with light and dark mode"
             imageUrl="/image-todo.jpg"
           />
           <DisplayCard
+            className={styles.gridItem}
             title="LOOPSTUDIOS"
             summary="A VR experience app made for Loopstudios"
             imageUrl="/image-loopstudios.jpg"
@@ -52,6 +57,7 @@ const AppDesignPage = () => {
           columnGap="30px"
         >
           <DesignCard
+            className={styles.grid2Item}
             title="WEB DESIGN"
             imageUrl="image-web-design-small.jpg"
             path="/web-design"
