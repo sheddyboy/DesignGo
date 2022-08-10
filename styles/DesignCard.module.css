@@ -3,6 +3,9 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .overlay {
@@ -30,6 +33,7 @@
   color: var(--pry_W);
   margin-bottom: 24px;
   text-transform: uppercase;
+  text-align: center;
 }
 .overlay p {
   color: var(--pry_W);

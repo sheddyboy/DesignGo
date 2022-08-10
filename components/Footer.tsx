@@ -38,12 +38,12 @@ const Footer = () => {
         <div className={styles.details}>
           <div className={styles.detailsLocation}>
             <div>
-              Designo Central Office <br />
+              <strong>Designo Central Office</strong> <br />
               3886 Wellington Street <br />
               Toronto, Ontario M9C 3J5
             </div>
             <div>
-              Contact Us (Central Office) <br />
+              <strong>Contact Us (Central Office)</strong> <br />
               P : +1 253-863-8967 <br />M : contact@designo.co
             </div>
           </div>

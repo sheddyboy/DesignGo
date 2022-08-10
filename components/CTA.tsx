@@ -9,7 +9,7 @@ const CTA = () => {
   const router = useRouter();
   return (
     <section className={styles.cta}>
-      <div className={"container " + styles.container}>
+      <div className={styles.container}>
         <Card className={styles.flex}>
           <div className={styles.content}>
             <h2>Let’s talk about your project</h2>

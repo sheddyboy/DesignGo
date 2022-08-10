@@ -28,12 +28,14 @@ const Hero = () => {
             </Button>
           </div>
           <div className={styles.image}>
-            <Image
-              alt=""
-              src={"/image-hero-phone.png"}
-              width={624}
-              height={913}
-            />
+            <div className={styles.wrapper}>
+              <Image
+                alt=""
+                src={"/image-hero-phone.png"}
+                width={2005}
+                height={2934}
+              />
+            </div>
           </div>
           <div className={styles.heroPattern}>
             <Image

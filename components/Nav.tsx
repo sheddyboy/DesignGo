@@ -23,6 +23,11 @@ const Nav = () => {
             <a className={styles.navLink}>CONTACT</a>
           </Link>
         </div>
+        <div className={styles.hamMenu}>
+          <i>
+            <Image src="/icon-hamburger.svg" width={24} height={20} />
+          </i>
+        </div>
       </div>
     </nav>
   );

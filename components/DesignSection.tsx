@@ -8,8 +8,18 @@ const DesignSection = () => {
   return (
     <section className={styles.designSection}>
       <div className="container">
-        <Grid gridTemplateColumns="1fr 1fr" columnGap="30px" rowGap="24px">
-          <GridItem gridColumn="1/2" gridRow="1/3" height="640px">
+        <Grid
+          className={styles.grid}
+          gridTemplateColumns="1fr 1fr"
+          columnGap="30px"
+          rowGap="24px"
+        >
+          <GridItem
+            className={styles.gridItem}
+            gridColumn="1/2"
+            gridRow="1/3"
+            height="640px"
+          >
             <DesignCard
               title="WEB DESIGN"
               imageUrl="/image-web-design-large.jpg"

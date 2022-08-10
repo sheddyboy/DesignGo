@@ -2,3 +2,23 @@
   position: relative;
   margin-bottom: 160px;
 }
+
+@media (max-width: 1069px) {
+  .grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr 1fr !important;
+  }
+
+  .gridItem {
+    grid-column: 1/2 !important;
+    grid-row: 1/2 !important;
+    height: 200px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .gridItem {
+    height: 250px !important;
+  }
+}
