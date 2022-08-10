@@ -66,4 +66,7 @@
   .pattern {
     top: 0;
   }
+  .pageHeading p {
+    width: auto;
+  }
 }

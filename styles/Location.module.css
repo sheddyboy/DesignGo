@@ -21,3 +21,10 @@
   position: absolute;
   top: 0;
 }
+
+@media (max-width: 900px) {
+  .location {
+    grid-template-columns: 1fr !important;
+    row-gap: 80px;
+  }
+}

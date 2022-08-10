@@ -7,7 +7,7 @@ import styles from "../styles/AboutUsPage.module.css";
 const AboutUsPage = () => {
   return (
     <section className={styles.section}>
-      <div className="container">
+      <div className={styles.container}>
         <Card className={styles.aboutUs}>
           <div className={styles.content}>
             <h1>About Us</h1>
@@ -19,14 +19,7 @@ const AboutUsPage = () => {
               and digital experiences that connect with our clients’ audiences.
             </p>
           </div>
-          <div className={styles.image}>
-            <Image
-              alt=""
-              src="/image-about-hero.jpg"
-              width={476}
-              height={480}
-            />
-          </div>
+          <div className={styles.image}></div>
           <div className={styles.pattern}>
             <Image
               alt=""
@@ -37,14 +30,7 @@ const AboutUsPage = () => {
           </div>
         </Card>
         <Card className={styles.worldClass}>
-          <div className={styles.image}>
-            <Image
-              alt=""
-              src="/image-world-class-talent.jpg"
-              width={476}
-              height={640}
-            />
-          </div>
+          <div className={styles.image}></div>
           <div className={styles.content}>
             <h2>World-class talent</h2>
             <p>
@@ -93,9 +79,7 @@ const AboutUsPage = () => {
               />
             </div>
           </div>
-          <div className={styles.image}>
-            <Image alt="" src="/image-real-deal.jpg" width={476} height={640} />
-          </div>
+          <div className={styles.image}></div>
         </Card>
       </div>
       <div className={styles.leafPattern}>
