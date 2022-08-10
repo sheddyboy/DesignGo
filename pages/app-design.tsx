@@ -9,12 +9,11 @@ import styles from "../styles/AppDesignPage.module.css";
 const AppDesignPage = () => {
   return (
     <section className={styles.section}>
+      <PageHeading
+        title="App Design"
+        summary="Our mobile designs bring intuitive digital solutions to your customers right at their fingertips."
+      />
       <div className="container">
-        <PageHeading
-          title="App Design"
-          summary="Our mobile designs bring intuitive digital solutions to your customers right at their fingertips."
-        />
-
         <Grid
           className={styles.grid}
           gridTemplateColumns="1fr 1fr 1fr"

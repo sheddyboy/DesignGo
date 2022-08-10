@@ -9,11 +9,11 @@ import styles from "../styles/WebDesignPage.module.css";
 const WebDesignPage = () => {
   return (
     <section className={styles.section}>
+      <PageHeading
+        title="Web Design"
+        summary="We build websites that serve as powerful marketing tools and bring memorable brand experiences."
+      />
       <div className="container">
-        <PageHeading
-          title="Web Design"
-          summary="We build websites that serve as powerful marketing tools and bring memorable brand experiences."
-        />
         <Grid
           className={styles.grid}
           gridTemplateColumns="1fr 1fr 1fr"
@@ -21,31 +21,37 @@ const WebDesignPage = () => {
           rowGap="32px"
         >
           <DisplayCard
+            className={styles.gridItem}
             title="EXPRESS"
             summary="A multi-carrier shipping website for ecommerce businesses"
             imageUrl="/image-express.jpg"
           />
           <DisplayCard
+            className={styles.gridItem}
             title="TRANSFER"
             summary="Site for low-cost money transfers and sending money within seconds"
             imageUrl="/image-transfer.jpg"
           />
           <DisplayCard
+            className={styles.gridItem}
             title="PHOTON"
             summary="A state-of-the-art music player with high-resolution audio and DSP effects"
             imageUrl="/image-photon.jpg"
           />
           <DisplayCard
+            className={styles.gridItem}
             title="BUILDER"
             summary="Connects users with local contractors based on their location"
             imageUrl="/image-builder.jpg"
           />
           <DisplayCard
+            className={styles.gridItem}
             title="BLOGR"
             summary="Blogr is a platform for creating an online blog or publication"
             imageUrl="/image-blogr.jpg"
           />
           <DisplayCard
+            className={styles.gridItem}
             title="CAMP"
             summary="Get expert training in coding, data, design, and digital marketing"
             imageUrl="/image-camp.jpg"
@@ -57,6 +63,7 @@ const WebDesignPage = () => {
           columnGap="30px"
         >
           <DesignCard
+            className={styles.grid2Item}
             title="APP DESIGN"
             imageUrl="image-app-design.jpg"
             path="/app-design"

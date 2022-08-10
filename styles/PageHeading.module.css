@@ -33,3 +33,37 @@
   right: 0;
   transform: rotate(180deg);
 }
+
+@media (max-width: 1000px) {
+  .pageHeading {
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 750px) {
+  .pageHeading {
+    margin-bottom: 96px;
+  }
+}
+
+@media (max-width: 800px) {
+  .section {
+    position: relative;
+    z-index: 1;
+    background-color: var(--pry_P);
+  }
+  .pageHeading h1 {
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0;
+  }
+  .pageHeading p {
+    margin: 0;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pattern {
+    top: 0;
+  }
+}

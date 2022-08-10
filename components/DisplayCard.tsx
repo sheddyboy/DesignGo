@@ -1,18 +1,28 @@
 import Image from "next/image";
-import React from "react";
+import React, { HTMLAttributes } from "react";
 import styles from "../styles/DisplayCard.module.css";
-import { PageHeadingProps } from "./PageHeading";
 import Card from "./UI/Card";
 
-interface DisplayCardProps extends PageHeadingProps {
+export interface DisplayCardProps extends HTMLAttributes<HTMLDivElement> {
   imageUrl: string;
+  title: string;
+  summary: string;
 }
 
-const DisplayCard = ({ title, summary, imageUrl }: DisplayCardProps) => {
+const DisplayCard = ({
+  title,
+  summary,
+  imageUrl,
+  className,
+  ...attributes
+}: DisplayCardProps) => {
   return (
-    <Card className={styles.displayCard}>
-      <div className={styles.image}>
-        <Image alt="" src={imageUrl} width={350} height={320} />
+    <Card className={className + " " + styles.displayCard} {...attributes}>
+      <div
+        className={styles.image}
+        style={{ backgroundImage: `url(${imageUrl})` }}
+      >
+        {/* <Image alt="" src={imageUrl} width={350} height={320} /> */}
       </div>
       <div className={styles.content}>
         <h3>{title}</h3>

@@ -20,6 +20,8 @@
 .image {
   width: 350px;
   height: 320px;
+  background-position: center;
+  background-size: cover;
 }
 
 .content {
@@ -49,6 +51,28 @@
   padding: 0px 32px;
 }
 
-.image img {
-  border-radius: 15px 15px 0 0;
+@media (max-width: 1000px) {
+  .image {
+    width: 339px;
+  }
+  .content {
+    width: 350px;
+  }
+}
+@media (max-width: 750px) {
+  .displayCard {
+    height: 478px !important;
+    flex-direction: column;
+  }
+  .image {
+    width: auto;
+  }
+}
+@media (max-width: 400px) {
+  .displayCard {
+    width: 100% !important;
+  }
+  .content {
+    width: auto;
+  }
 }

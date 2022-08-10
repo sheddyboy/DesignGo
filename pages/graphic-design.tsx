@@ -9,11 +9,11 @@ import styles from "../styles/GraphicDesignPage.module.css";
 const GraphicDesignPage = () => {
   return (
     <section className={styles.section}>
+      <PageHeading
+        title="Graphic Design"
+        summary="We deliver eye-catching branding materials that are tailored to meet your business objectives."
+      />
       <div className="container">
-        <PageHeading
-          title="Graphic Design"
-          summary="We deliver eye-catching branding materials that are tailored to meet your business objectives."
-        />
         <Grid
           className={styles.grid}
           gridTemplateColumns="1fr 1fr 1fr"
