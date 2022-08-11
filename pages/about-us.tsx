@@ -1,10 +1,15 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import Location from "../components/Location";
 import Card from "../components/UI/Card";
 import styles from "../styles/AboutUsPage.module.css";
 
 const AboutUsPage = () => {
+  useEffect(() => {
+    console.log("Mounted");
+
+    return () => console.log("Un-Mounted");
+  }, []);
   return (
     <section className={styles.section}>
       <div className={styles.container}>
