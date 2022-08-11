@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
+import useGetWindowWidth from "../Hooks/useGetWindowWidth";
 import styles from "../styles/PageHeading.module.css";
 import { DisplayCardProps } from "./DisplayCard";
 import Card from "./UI/Card";
@@ -7,13 +8,7 @@ import Card from "./UI/Card";
 export interface PageHeadingProps extends DisplayCardProps {}
 
 const PageHeading = ({ title, summary }: PageHeadingProps) => {
-  const [windowWidth, setWindowWidth] = useState(0);
-  useEffect(() => {
-    setWindowWidth(window.innerWidth);
-    window.addEventListener("resize", () => {
-      setWindowWidth(window.innerWidth);
-    });
-  }, [windowWidth]);
+  const { windowWidth } = useGetWindowWidth();
 
   let headingPatternChange: string;
   let width: number;

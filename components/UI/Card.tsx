@@ -2,7 +2,7 @@ import React, { HTMLAttributes } from "react";
 import styles from "../../styles/Card.module.css";
 
 interface CardProp extends HTMLAttributes<HTMLDivElement> {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
 }
 const Card = ({ children, className, ...attributes }: CardProp) => {
