@@ -17,7 +17,7 @@ const Nav = () => {
     <>
       <nav className={styles.nav}>
         <div className={"container " + styles.container}>
-          <div className={styles.logo}>
+          <div className={styles.logo} onClick={() => sethamMenuTrigger(false)}>
             <Link href={"/"}>
               <Image alt="" src={"/logo-dark.png"} width={196} height={24} />
             </Link>
