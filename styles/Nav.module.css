@@ -5,6 +5,7 @@
   z-index: 3;
   padding-top: 64px;
   padding-bottom: 34px;
+  margin-bottom: 32px;
 }
 
 .container {
@@ -50,7 +51,7 @@
   .nav {
     /* position: sticky; */
     padding-top: 35px;
-    margin-bottom: 34px;
+    margin-bottom: 0;
   }
   .navLinks {
     position: absolute;
@@ -73,7 +74,7 @@
   }
   .navLink:nth-child(2) {
     margin-top: 32px;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
   }
 
   .hamMenu {
