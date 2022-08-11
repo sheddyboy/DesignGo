@@ -4,6 +4,7 @@
   background-color: var(--pry_W);
   z-index: 3;
   padding-top: 64px;
+  padding-top: 34px;
 }
 
 .container {
