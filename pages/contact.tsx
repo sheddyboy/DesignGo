@@ -18,7 +18,7 @@ const ContactPage = () => {
   };
   return (
     <section>
-      <div className="container">
+      <div className={styles.container}>
         <Card className={styles.wrapper}>
           <div className={styles.content}>
             <h1>Contact Us</h1>
