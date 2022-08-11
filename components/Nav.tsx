@@ -48,13 +48,28 @@ const Nav = () => {
         <div className={styles.backDrop}>
           <div className={styles.navLinks}>
             <Link href={"/about-us"}>
-              <a className={styles.navLink}>OUR COMPANY</a>
+              <a
+                className={styles.navLink}
+                onClick={() => sethamMenuTrigger(false)}
+              >
+                OUR COMPANY
+              </a>
             </Link>
             <Link href={"/locations"}>
-              <a className={styles.navLink}>LOCATIONS</a>
+              <a
+                onClick={() => sethamMenuTrigger(false)}
+                className={styles.navLink}
+              >
+                LOCATIONS
+              </a>
             </Link>
             <Link href={"/contact"}>
-              <a className={styles.navLink}>CONTACT</a>
+              <a
+                onClick={() => sethamMenuTrigger(false)}
+                className={styles.navLink}
+              >
+                CONTACT
+              </a>
             </Link>
           </div>
         </div>
