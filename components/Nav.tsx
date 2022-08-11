@@ -1,12 +1,22 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import useGetWindowWidth from "../Hooks/useGetWindowWidth";
 import styles from "../styles/Nav.module.css";
+import { gsap } from "gsap";
 
 const Nav = () => {
+  const hamMenuRef = useRef<HTMLDivElement>(null);
   const [hamMenuTrigger, sethamMenuTrigger] = useState(false);
   const { windowWidth } = useGetWindowWidth();
+
+  useEffect(() => {
+    gsap.fromTo(
+      hamMenuRef.current,
+      { opacity: "0", y: "-100px" },
+      { opacity: "1", y: "0px" }
+    );
+  }, [hamMenuTrigger]);
   const handleClick = () => {
     sethamMenuTrigger((hamMenuTrigger) => !hamMenuTrigger);
   };
@@ -46,7 +56,7 @@ const Nav = () => {
       </nav>
       {windowWidth <= 800 && hamMenuTrigger && (
         <div className={styles.backDrop}>
-          <div className={styles.navLinks}>
+          <div className={styles.navLinks} ref={hamMenuRef}>
             <Link href={"/about-us"}>
               <a
                 className={styles.navLink}
